@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style> h1 {text-align: center;} .center { margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }</style>
+        <title>UniWA Bookshop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body >
+        <div class ="center">   <!--ola einai mesa se auto to div gia na emfaniszontai sto kentro-->
+           
+        <h1>Welcome!</h1>
+        <form action="RetrieveAllServlet">
+            <input type="submit" value="View all Books" />
+        </form>
+         <form action="RetrieveByIdForm">
+            <input type="submit" value="Retrieve the book of your choice" />
+        </form>
+        <form action="DeleteForm">
+            <input type="submit" value="Delete by Id" />
+        </form>
+         <form action="OrderForm">
+            <input type="submit" value="Make an Order" />
+        </form>
+         <form action="CreateForm">
+            <input type="submit" value="Insert a new Book" />
+        </form>
+        <form action="UpdateForm">
+            <input type="submit" value="Update Entry " />
+        </form>
+        </div>
+    </body>
+</html>
